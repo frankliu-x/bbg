@@ -44,6 +44,7 @@ namespace BbgTerminalLogin
             {
                 if (window.ClassName == "Notepad")
                 {
+                    //for testing is ok Thanks
                     // for debugging locally w/ notepad.
                     PerformLogin(window, username, password); return (int) ExitCodes.LoginPerformed;
                 }
